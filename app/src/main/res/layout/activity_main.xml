@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/nameCont"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="16sp"
+        android:paddingLeft="20dp"
+        android:textColorHint="#ff00ff"
+        android:textColor="#ff0000"
+        android:hint="输入表名称"/>
+
+    <TextView
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_marginTop="2dp"
+        android:id="@+id/addNew"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="新增数据"
+        android:clickable="true"
+       />
+    <TextView
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_marginTop="2dp"
+        android:id="@+id/update"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="修改数据"
+        android:clickable="true"
+
+        />
+    <TextView
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_marginTop="2dp"
+        android:id="@+id/select"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="查询所有"
+        android:clickable="true"
+        />
+
+    <TextView
+        android:id="@+id/httpMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorAccent"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:text="sdfdsfdsfdsfdsfdsfdsfd "/>
+
+
+</LinearLayout>
