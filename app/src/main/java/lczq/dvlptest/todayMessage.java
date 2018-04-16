@@ -1,4 +1,4 @@
-package lczq.httpleantest;
+package lczq.dvlptest;
 
 import com.avos.avoscloud.AVClassName;
 import com.avos.avoscloud.AVObject;

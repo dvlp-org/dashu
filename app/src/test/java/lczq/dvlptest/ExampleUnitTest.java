@@ -1,4 +1,4 @@
-package lczq.httpleantest;
+package lczq.dvlptest;
 
 import org.junit.Test;
 

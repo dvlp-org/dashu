@@ -1,4 +1,4 @@
-package lczq.httpleantest;
+package lczq.dvlptest;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
