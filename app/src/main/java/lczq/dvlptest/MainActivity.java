@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     return;
                 }
                 AVObject testObject = new AVObject(nameCont.getText().toString());
-                testObject.put("ctitle"," ");
+                testObject.put("ctitle","");
                 testObject.put("cTitle2","");
                 testObject.put("contentUrl","");
                 testObject.put("cUrlToH5","");
